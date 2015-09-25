@@ -1,0 +1,18 @@
+
+.Square1 {
+	background-color: grey;
+	width: 10em;
+	height: 10em;
+	border: 5px solid black;
+}
+
+.Square2 {
+	background-color: grey;
+	width: 10em;
+	height: 10em;
+	border: 5px solid black;
+	}
+
+	body {
+ color: white;
+	}
