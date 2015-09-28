@@ -1,16 +1,21 @@
-
-.Square1 {
-	background-color: grey;
+.grey {
+ background: grey;
 	width: 10em;
 	height: 10em;
-	border: 5px solid black;
+	margin: 10px;
 }
-
-.Square2 {
-	background-color: grey;
+.red{
+	background: red;
 	width: 10em;
 	height: 10em;
-	border: 5px solid black;
+	margin: 10px;
+	
+}
+.green {
+	background: green;
+	width: 10em;
+	height: 10em;
+	margin: 10px;
 	}
 
 	body {

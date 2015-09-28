@@ -6,28 +6,25 @@
 	<link rel="stylesheet" type="text/css" href="task2.css">
 </head>
 <body>
-<div class="Square1"></div>
-<button type="button" onClick="changecolor1()">Make Red</button>
-<div class="Square2"></div>
-<button type="button" onClick="changecolor2()">Make Green</button>
-
+<div  id="redBlock" class="grey"></div>
+<button id="redButton">Make Red</button>
+<div id="greenBlock" class="grey"></div>
+<button id="greenButton">Make Green</button>z
+ 
 <script type="text/javascript">
- function changecolor1() {
+ var redButton =  document.getElementById('redButton');
+ redButton.addEventListener('click', function () {
+var redBlock = document.getElementById('redBlock');
+redBlock.className ="red";
+ 
+ });
 
-var Square1=document.getElementsByClassName("Square1");
-i = Square1.length;
-while(i--) {
-Square1[i].style.backgroundColor="red";
-}
- }
-
-function changecolor2() {
- var Square2=document.getElementsByClassName("Square2");
- i = Square2.length;
- while(i--) {
-Square2[i].style.backgroundColor="green";
- }
-}
+var redButton =  document.getElementById('greenButton');
+ redButton.addEventListener('click', function () {
+var redBlock = document.getElementById('greenBlock');
+redBlock.className ="green";
+ 
+ });
 </script>
 </body>
 </html>
