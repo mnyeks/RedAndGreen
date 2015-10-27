@@ -1,33 +1,22 @@
  #Square1 {
-<<<<<<< HEAD
- 
  	height: 10em;
  	width: 10em;
  	background-color: red;
-=======
  	border: 5px solid black;
  	height: 10em;
  	width: 10em;
  	background-color: red;
  	margin: 0 auto;
->>>>>>> 1ca56ab700ded6a661c2614e27c01312b09de157
  	color: white
  }
 
  #Square2 {
-<<<<<<< HEAD
- 
-=======
  	border: 5px solid black;
->>>>>>> 1ca56ab700ded6a661c2614e27c01312b09de157
  	height: 10em;
  	width: 10em;
     background-color: green;
-    color:white;
-<<<<<<< HEAD
-    
-=======
+    color: white;
     margin: 10px auto;
->>>>>>> 1ca56ab700ded6a661c2614e27c01312b09de157
+
  }
  
