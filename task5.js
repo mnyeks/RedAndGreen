@@ -3,6 +3,7 @@ var setTestStatus = function(elementid, buttonId, className){
 //Remember that it takes 2 parameters: the id of an element and the test status
 var elem = document.getElementById(elementid);
     elem.className = className;
+    
 var theButton = document.getElementById(buttonId);    
 // change the button text
 if (className === "failing") {
